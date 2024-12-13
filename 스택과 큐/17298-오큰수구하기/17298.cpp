@@ -28,6 +28,7 @@ int main()
         {
             result[stack.top()] = A[i]; // 현재 숫자가 오큰수
             stack.pop();
+            // 스택이 비워질때까지 반복
         }
         stack.push(i);
     }
