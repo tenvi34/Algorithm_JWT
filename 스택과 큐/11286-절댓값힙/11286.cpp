@@ -16,6 +16,7 @@ struct compare
         }
         else
         {
+            // 절댓값을 기준으로 정렬
             return first_abs > secont_abs;
         }
     }
