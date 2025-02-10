@@ -17,9 +17,9 @@ bool isValid(string str)
         // 짝이 맞지 않거나 스택이 비어있으면 false 반환
         else
         {
-            if (c == ')' && st.top() != '(' ||
-                c == '}' && st.top() != '{' ||
-                c == ']' && st.top() != '[' ||
+            if ((c == ')' && st.top() != '(') ||
+                (c == '}' && st.top() != '{') ||
+                (c == ']' && st.top() != '[') ||
                 st.empty())
             {
                 return false;
